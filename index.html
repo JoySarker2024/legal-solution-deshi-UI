@@ -61,7 +61,7 @@
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <img class="h-45 mx-3" src="./images/business.png" alt="">
+                    <img class="h-45 mx-3" src="./images/logo.png" alt="">
                     <a class=" text-4xl font-bold">Justice</a>
                 </div>
                 <div class="navbar-end hidden lg:flex">
@@ -80,28 +80,33 @@
         </nav>
 
         <!-- Hero -->
-        <div class="carousel w-full mt-14">
-            <div id="item1" class="carousel-item w-full">
-                <img
-                  src="./images/banner.png"
-                  class="w-full" />
-                  
-              </div> 
-              <div class="hero min-h-screen">
-                <div class="hero-content text-center">
-                  <div class="max-w-md">
-                    <h1 class="text-4xl font-bold">We Provide Effective <br> Legal Solutions</h1>
-                    <p class="py-6">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
-                    </p>
-                    <div>
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mx-5" />
-                        <button class="py-2 px-4 rounded-lg hover:bg-bike-primary bg-bike-primary text-white">Search</button>
-                    </div>
+        <div class="carousel w-full mt-14 relative">
+            <div id="item1" class="carousel-item w-full relative">
+              <img src="./images/banner.png" class="w-full" alt="Banner Image" />
+              <!-- Text Overlay -->
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="text-white text-center space-y-5">
+                  <h1 class="text-4xl font-bold">We Provide Effective<br>Legal Solutions</h1>
+                  <p class="py-4">
+                    There are many variations of passages of Lorem Ipsum available, but the 
+                    <br>
+                    majority have suffered alteration in some form, by injected humour.
+                  </p>
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Type here"
+                      class="input input-bordered w-full max-w-xs mx-5"
+                    />
+                    <button class="py-2 px-4 rounded-lg hover:bg-bike-primary bg-bike-primary text-white">
+                      Search
+                    </button>
                   </div>
                 </div>
               </div>
-        </div>
+            </div>
+          </div>
+          
                
     </header>
 
